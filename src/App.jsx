@@ -80,7 +80,7 @@ function App() {
       </section>
 
       <div>
-      <section class="w-full bg-[#23191A] text-white font-[Montserrat] py-20 px-4">
+      <section class="w-full bg-[#23191A] text-white font-montserrat py-20 px-4">
   <div class="max-w-7xl mx-auto text-center">
     <h2 class="text-3xl md:text-4xl font-bold mb-12">¿Por qué contratarnos?</h2>
 
@@ -96,7 +96,7 @@ function App() {
         <p class="text-sm text-gray-300">Te atendemos sin importar donde te encuentres.</p>
       </div>
 
-    
+     
       <div class="flex flex-col items-center text-center">
         <div class="bg-[#37292A] rounded-full p-6 mb-4">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -107,7 +107,7 @@ function App() {
         <p class="text-sm text-gray-300">Asistencia virtual. Hablá con nosotros sobre cualquier inquietud, 24/7.</p>
       </div>
 
-    
+     
       <div class="flex flex-col items-center text-center">
         <div class="bg-[#37292A] rounded-full p-6 mb-4">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-pink-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -122,16 +122,37 @@ function App() {
 </section>
 
 
-<section class="w-full bg-[#23191A] text-white font-[Montserrat] py-20 px-4">
+<section class="w-full bg-[#23191A] text-white font-montserrat py-20 px-4">
+  <div class="max-w-5xl mx-auto border-t border-purple-800 pt-10 mb-12">
+    <div class="mb-12">
+      <h3 class="text-pink-400 font-bold text-lg mb-2">MISIÓN:</h3>
+      <p class="text-white text-base md:text-lg leading-relaxed">
+        Crear soluciones tecnológicas creativas, accesibles y eficientes que impulsen la digitalización, automatización y crecimiento de negocios y emprendimientos en el entorno digital.
+      </p>
+    </div>
+
+    <div class="border-t border-purple-800 pt-10 mb-12">
+      <h3 class="text-pink-400 font-bold text-lg mb-2">VISIÓN:</h3>
+      <p class="text-white text-base md:text-lg leading-relaxed">
+        Ser un estudio de desarrollo y diseño de referencia en Latinoamérica, reconocido por su innovación, calidad humana y capacidad de adaptación a los cambios tecnológicos.
+      </p>
+    </div>
+    <div class="border-t border-purple-800 pt-10 mb-12"></div>
+  </div>
+ 
+</section >
+
+
+<section class="w-full bg-[#23191A] text-white font-montserrat py-20 px-4">
   <div class="max-w-7xl mx-auto text-center">
-    <h2 class="text-3xl md:text-4xl font-bold mb-12">QUÉ OFRECEMOS</h2>
+    <h2 class="text-3xl md:text-4xl font-bold mb-12 font-montserrat">QUÉ OFRECEMOS</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-10 text-left">
     
       <div class="flex flex-col items-center text-center">
         <img src="/images/code1.jpg" alt="Diseño web" class="w-full max-w-[220px] rounded-lg mb-4"/>
         <h3 class="text-lg font-bold text-[#D9A5D7]">Diseño y desarrollo web</h3>
-        <ul class="text-sm text-gray-300 mt-2">
+        <ul class="text-sm text-gray-300 mt-2 ">
           <li>- Sitios web institucionales y personales</li>
           <li>- Tiendas online (e-commerce)</li>
           <li>- Landing pages para campañas</li>
@@ -142,7 +163,7 @@ function App() {
 
     
       <div class="flex flex-col items-center text-center">
-        <img src="/images/code2.jpg" alt="Automatización" class="w-full max-w-[220px] rounded-lg mb-4"/> 
+        <img src="/images/code2.jpg" alt="Automatización" class="w-full max-w-[220px] rounded-lg mb-4"/>
         <h3 class="text-lg font-bold text-[#D9A5D7]">Automatización de negocios</h3>
         <ul class="text-sm text-gray-300 mt-2">
           <li>- Sistemas de reservas, turnos, pagos</li>
@@ -153,7 +174,7 @@ function App() {
         </ul>
       </div>
 
-   
+  
       <div class="flex flex-col items-center text-center">
         <img src="/images/code3.jpg" alt="Diseño gráfico" class="w-full max-w-[220px] rounded-lg mb-4"/>
         <h3 class="text-lg font-bold text-[#D9A5D7]">Branding y diseño gráfico</h3>
@@ -166,7 +187,7 @@ function App() {
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-10 text-left mt-16">
-  
+    
       <div class="flex flex-col items-center text-center">
         <img src="/images/code1.jpg" alt="Soporte" class="w-full max-w-[220px] rounded-lg mb-4"/>
         <h3 class="text-lg font-bold text-[#D9A5D7]">Soporte tecnológico y asesoría</h3>
@@ -176,6 +197,7 @@ function App() {
           <li>- Consultoría en digitalización y procesos internos</li>
         </ul>
       </div>
+
 
       <div class="flex flex-col items-center text-center">
         <img src="/images/code1.jpg" alt="Redes sociales" class="w-full max-w-[220px] rounded-lg mb-4"/>
