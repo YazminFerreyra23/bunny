@@ -63,7 +63,7 @@ function App() {
     </nav>
     </div>
     <div>
-      <section className="min-h-screen w-full bg-gradient-to-b from-[#fdbb2d] via-[#d84fe2] to-[#8a2be2] text-white font-montserrat flex items-center justify-center px-6 sm:px-12 md:px-20 lg:px-32">
+      <section className="min-h-screen w-full bg-gradient-to-b  bg-[#23191A] text-white font-montserrat flex items-center justify-center px-6 sm:px-12 md:px-20 lg:px-32">
         <div className="text-center max-w-3xl">
           <div className="mb-8">
             <img
