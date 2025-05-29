@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Header } from "./components/Header";
 import { WhyUs } from "./components/WhyUs";
 import { OurServices } from "./components/OurServices";
@@ -10,12 +9,9 @@ function App() {
       <NavBar />
 
       <Header />
-
-      <WhyUs />
-
-      <Objetives />
-
       <OurServices />
+      <Objetives />
+      <WhyUs />
     </>
   );
 }

@@ -11,7 +11,7 @@ export const OurServices = () => {
         <div class="grid grid-cols-1 md:grid-cols-3 gap-10 text-left">
           <div class="flex flex-col items-center text-center">
             <img
-              src="/images/code1.jpg"
+              src="/img/diseñoweb.png"
               alt="Diseño web"
               class="w-full max-w-[220px] rounded-lg mb-4"
             />
@@ -29,7 +29,7 @@ export const OurServices = () => {
 
           <div class="flex flex-col items-center text-center">
             <img
-              src="/images/code2.jpg"
+              src="img/automatizaciondenegocio.png"
               alt="Automatización"
               class="w-full max-w-[220px] rounded-lg mb-4"
             />
@@ -44,44 +44,9 @@ export const OurServices = () => {
               <li>- Integración con herramientas externas (Zapier, APIs)</li>
             </ul>
           </div>
-
-          <div class="flex flex-col items-center text-center">
+<div class="flex flex-col items-center text-center">
             <img
-              src="/images/code3.jpg"
-              alt="Diseño gráfico"
-              class="w-full max-w-[220px] rounded-lg mb-4"
-            />
-            <h3 class="text-lg font-bold text-[#D9A5D7]">
-              Branding y diseño gráfico
-            </h3>
-            <ul class="text-sm text-gray-300 mt-2">
-              <li>- Diseño de identidad visual</li>
-              <li>- Diseño UX/UI para productos digitales</li>
-              <li>- Diseño de material promocional digital</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 text-left mt-16">
-          <div class="flex flex-col items-center text-center">
-            <img
-              src="/images/code1.jpg"
-              alt="Soporte"
-              class="w-full max-w-[220px] rounded-lg mb-4"
-            />
-            <h3 class="text-lg font-bold text-[#D9A5D7]">
-              Soporte tecnológico y asesoría
-            </h3>
-            <ul class="text-sm text-gray-300 mt-2">
-              <li>- Mantenimiento web</li>
-              <li>- Hosting y dominios</li>
-              <li>- Consultoría en digitalización y procesos internos</li>
-            </ul>
-          </div>
-
-          <div class="flex flex-col items-center text-center">
-            <img
-              src="/images/code1.jpg"
+              src="img/redessociales.png"
               alt="Redes sociales"
               class="w-full max-w-[220px] rounded-lg mb-4"
             />
@@ -96,6 +61,41 @@ export const OurServices = () => {
               <li>- Análisis básico de estadísticas</li>
             </ul>
           </div>
+        
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 text-left mt-16">
+          <div class="flex flex-col items-center text-center">
+            <img
+              src="img/soportetecnologia.png"
+              alt="Soporte"
+              class="w-full max-w-[220px] rounded-lg mb-4"
+            />
+            <h3 class="text-lg font-bold text-[#D9A5D7]">
+              Soporte tecnológico y asesoría
+            </h3>
+            <ul class="text-sm text-gray-300 mt-2">
+              <li>- Mantenimiento web</li>
+              <li>- Hosting y dominios</li>
+              <li>- Consultoría en digitalización y procesos internos</li>
+            </ul>
+          </div>
+  <div class="flex flex-col items-center text-center">
+            <img
+              src="img/grafico.png"
+              alt="Diseño gráfico"
+              class="w-full max-w-[220px] rounded-lg mb-4"
+            />
+            <h3 class="text-lg font-bold text-[#D9A5D7]">
+              Branding y diseño gráfico
+            </h3>
+            <ul class="text-sm text-gray-300 mt-2">
+              <li>- Diseño de identidad visual</li>
+              <li>- Diseño UX/UI para productos digitales</li>
+              <li>- Diseño de material promocional digital</li>
+            </ul>
+          </div>
+          
         </div>
       </div>
     </section>
