@@ -6,7 +6,7 @@ export const Contacto = () => {
      <section class="w-full bg-[#000000] text-white font-montserrat py-20 px-4 text-center">
     <div class="max-w-4xl mx-auto">
       <div class="mb-12">
-        <img src="img/bunnylogo1.png" alt="Logo Bunny" class="mx-auto mb-4 w-28 h-28"/>
+        <img src="img/bunnylogo1.png" alt="Logo Bunny" className="mx-auto  w-48 h-48"/>
        
         <p class="text-sm font-semibold">SOLUCIONES TECNOLÓGICAS</p>
       </div>
