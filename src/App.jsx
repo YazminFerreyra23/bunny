@@ -15,7 +15,7 @@ function App() {
       <Objetives />
       <WhyUs />
       <Contacto />
-      <SobreNosotros/>
+      
     </>
   );
 }
