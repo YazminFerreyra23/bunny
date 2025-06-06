@@ -9,13 +9,12 @@ function App() {
   return (
     <>
       <NavBar />
-
       <Header />
       <OurServices />
       <Objetives />
       <WhyUs />
       <Contacto />
-      <SobreNosotros/>
+      <SobreNosotros />
     </>
   );
 }
