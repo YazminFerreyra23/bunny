@@ -1,4 +1,4 @@
-import { Header } from "./components/Header";
+import { Header } from "./components/header/Header";
 import { WhyUs } from "./components/WhyUs";
 import { OurServices } from "./components/OurServices";
 import { Objetives } from "./components/Objetives";
@@ -13,7 +13,7 @@ function App() {
       <OurServices />
       <Objetives />
       <WhyUs />
-      <Contacto/>
+      <Contacto />
     </>
   );
 }

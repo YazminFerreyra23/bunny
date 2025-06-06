@@ -6,9 +6,9 @@
 
 .burbuja{
   background-image: url("/img/burbuja.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  height: 370px;
+  height: 300px;
   
 }
