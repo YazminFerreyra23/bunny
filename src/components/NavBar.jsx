@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Link } from "react-router";
+import { SobreNosotros } from './SobreNosotros';
 
 export const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,14 +12,14 @@ export const NavBar = () => {
 
         {/* Desktop nav */}
         <div className="hidden md:flex space-x-8 text-sm font-medium">
-          <a href="#servicios" className="hover:text-purple-400 transition">
-            Servicios
-          </a>
+          <Link to={"/nosotros"} className="hover:text-purple-400 transition">
+          Sobre nosotros
+          </Link>
           <a
-            href="#sobre-nosotros"
+            href="#sobreNosotros"
             className="hover:text-purple-400 transition"
           >
-            Sobre nosotros
+           Servicio
           </a>
           <a href="#contacto" className="hover:text-purple-400 transition">
             Contacto

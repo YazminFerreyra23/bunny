@@ -4,6 +4,7 @@ import { OurServices } from "./components/OurServices";
 import { Objetives } from "./components/Objetives";
 import { NavBar } from "./components/NavBar";
 import { Contacto } from "./components/Contacto";
+import { SobreNosotros } from "./components/SobreNosotros";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       <Objetives />
       <WhyUs />
       <Contacto />
+      <SobreNosotros/>
     </>
   );
 }
