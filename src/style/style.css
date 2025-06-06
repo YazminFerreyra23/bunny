@@ -3,3 +3,12 @@
 .colortexto{
     color: #b59b7a;
 }
+
+.burbuja{
+  background-image: url("/img/burbuja.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 370px;
+  
+}

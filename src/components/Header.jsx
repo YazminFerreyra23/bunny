@@ -9,9 +9,12 @@ export const Header = () => {
             className="mx-auto w-64 h-64 border-green-500"
           />
         </div>
+        <div className="burbuja">
         <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
           Transformamos ideas en resultados digitales reales
         </h2>
+        </div>
+        
         <div className="max-w-2xl m-auto">
           <h1 className="text-2xl mt-5 colortexto">
             Sabemos que hoy no alcanza con simplemente
