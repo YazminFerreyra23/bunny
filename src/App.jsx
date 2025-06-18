@@ -1,19 +1,22 @@
-import { Header } from "./components/header/Header";
-import { WhyUs } from "./components/WhyUs";
-import { OurServices } from "./components/OurServices";
-import { Objetives } from "./components/Objetives";
-import { NavBar } from "./components/NavBar";
-import { Contacto } from "./components/Contacto";
+import ProjectCarousel from "./components/ProjectCarousel";
+import Features from './components/Features';
+import Services from './components/Services';
+import WhyInvest from './components/WhyInvest';
+import {Hero} from './components/Hero';
+
 function App() {
   return (
     <>
-      <NavBar />
-      <Header />
-      <OurServices />
-      <Objetives />
-      <WhyUs />
-      <Contacto />
-      <SobreNosotros />
+     
+     
+      
+      <Hero />
+      <Features />
+      <ProjectCarousel/>
+      <Services />
+      <WhyInvest />
+      
+   
     </>
   );
 }

@@ -1,14 +1,5 @@
 @import "tailwindcss";
-
-.colortexto{
-    color: #b59b7a;
-}
-
-.burbuja{
-  background-image: url("/img/burbuja.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 300px;
-  
-}
+body {
+    
+    font-family: 'Montserrat', sans-serif;
+  }
