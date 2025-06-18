@@ -3,6 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import { SobreNosotros } from "../components/SobreNosotros";
 import { GeneralLayout } from "./layout/GeneralLayout";
+import Services from "../components/Services";
 
 export const routes = () => {
   const router = createBrowserRouter(
@@ -16,6 +17,11 @@ export const routes = () => {
             path: "/nosotros",
             element: <SobreNosotros />,
           },
+          {
+            path: "/servicios",
+            element: <Services />,
+          },
+       
         ],
       },
     ],

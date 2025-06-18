@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Link } from "react-router-dom";
 
 
 
@@ -13,8 +13,8 @@ export const NavBar = () => {
      
     </div>
     <ul className="flex gap-4 font-semibold text-sm">
-      <li><a href="#" className="hover:text-pink-500">SOBRE NOSOTROS</a></li>
-      <li><a href="#" className="hover:text-pink-500">SERVICIOS</a></li>
+      <li><Link to="/nosotros" className="hover:text-pink-500">SOBRE NOSOTROS</Link></li>
+     <li><Link to="/servicios" className="hover:text-pink-500">SERVICIOS</Link></li>
       <li><a href="#" className="bg-pink-400 text-white px-4 py-1 rounded-full hover:bg-pink-500">CANTÁCTANOS AHORA</a></li>
     </ul>
     
