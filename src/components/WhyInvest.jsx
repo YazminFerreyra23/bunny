@@ -1,10 +1,13 @@
 import React from "react";
 import { CheckCircle } from "lucide-react"; // opcional, ícono decorativo
+import MiComponenteSpline from '../components/SobreNosotros'; // Ajusta la ruta si es necesario
+
 
 export default function WhyInvest() {
   return (
     <section className="w-full bg-white py-20 px-4">
       <div className="max-w-5xl mx-auto bg-pink-200 rounded-3xl shadow-xl p-10 md:p-16 text-gray-800">
+     
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-pink-800">
           ¿Por qué invertir en el diseño de tu página?
         </h2>

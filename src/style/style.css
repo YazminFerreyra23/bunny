@@ -2,4 +2,14 @@
 body {
     
     font-family: 'Montserrat', sans-serif;
+    
+  }
+
+  .computadora {
+    background-image: url("/img/computer.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+   
   }
