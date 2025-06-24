@@ -4,6 +4,17 @@ body {
     font-family: 'Montserrat', sans-serif;
     
   }
+  .primary-color{
+    color: #a30860;
+  }
+  
+  .burbuja{
+    background-image: url("/img/burbuja-bunny.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
 
   .computadora {
     background-image: url("/img/computer.png");
@@ -12,4 +23,37 @@ body {
     background-position: center;
     height: 700px;
    
+  }
+
+  
+  .conteiner-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+
+  .section{
+    display: flex;
+    width: 1230px;
+    height: 430px;
+    justify-content: center;
+   
+   
+  }
+  .section-img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    
+
+  }
+  .section-img:hover{
+    cursor: crosshair;
+    width: 300px; 
+    opacity: 1;
+    filter: contrast(120%);
+    
   }

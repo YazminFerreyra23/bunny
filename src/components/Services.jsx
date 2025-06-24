@@ -5,7 +5,7 @@ export default function Services() {
 {/* Suggested code may be subject to a license. Learn more: ~LicenseLog:2012003185. */}
           <div className="col-span-2 py-22">
           <h2 className=" md:text-2xl font-bold mb-4 ">TU PÁGINA WEB PROFESIONAL</h2>
-          <h3 className=" md:text-9xl font-bold text-fuchsia-700 mb-6">QUÉ OFRECEMOS</h3>
+          <h3 className="primary-color md:text-9xl font-bold  mb-6">QUÉ OFRECEMOS</h3>
           </div>
         
       

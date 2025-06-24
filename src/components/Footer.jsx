@@ -15,7 +15,7 @@ export const Footer = () =>  {
           </div>
           <div>
             <strong>REDES SOCIALES</strong>
-            <p>📷</p>
+                                                                   <a href="https://www.instagram.com/bunnycreationsworld?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="></a>
           </div>
         </div>
       </footer>
