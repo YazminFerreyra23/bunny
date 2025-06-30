@@ -15,7 +15,7 @@ export default function MiComponenteSpline() {
           Creemos en el trabajo colaborativo, el aprendizaje constante y en el poder de las ideas bien ejecutadas.
         </p>
 
-        <div className="bg-primary-color bg- text-white py-3 text-center text-xl font-bold mb-4 rounded">
+        <div className="bg-primary-color bg- text-white py-3 text-center text-3xl font-bold mb-4 rounded">
           Nuestro Equipo
         </div>
         <p className="text-center text-xl mb-10 max-w-xl mx-auto">

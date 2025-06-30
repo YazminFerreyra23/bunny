@@ -19,13 +19,13 @@ export const Footer = () => {
           </strong>
         </div>
         <div>
-          <i className="fi fi-brands-whatsapp m-2"></i>
+          <i className="text-green-600 fi fi-brands-whatsapp m-2"></i>
           <strong>
             <a
               href="https://wa.me/5493512008632"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-green-600 hover:text-pink-500 hover:underline"
+              className=" hover:text-pink-500 hover:underline"
             >
               WhatsApp
             </a>
@@ -35,7 +35,7 @@ export const Footer = () => {
         <div>
           <i
             class=
-            "fi fi-brands-instagram m-2"
+            "fi fi-brands-instagram m-2 text-red-600"
           ></i>
           <strong>
             <a href="https://www.instagram.com/bunnycreationsworld?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
