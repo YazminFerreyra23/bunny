@@ -4,7 +4,10 @@ export const Hero = () => {
     <section className="text-center px-3 py-12 burbuja">
 
       <div className="w-3xl mx-auto ">
-        <p className="uppercase text-xs tracking-wide font-semibold">Bunny Soluciones Tecnológicas</p>
+      <i className="fi fi-rs-display-code text-4xl"></i>
+      <br></br>
+        <strong className="uppercase text-lg tracking-wide font-semibold">
+        Bunny <br></br> Soluciones Tecnológicas </strong> 
         <h1 className="  primary-color text-center font-bold text-7xl leading-tight mt-5">
           Transformamos ideas en resultados digitales reales
         </h1>

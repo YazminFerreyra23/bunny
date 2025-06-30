@@ -4,10 +4,16 @@ body {
     font-family: 'Montserrat', sans-serif;
     
   }
+  .bg-primary-color {
+    background-color: #a30860;
+  }
+  
   .primary-color{
     color: #a30860;
   }
-  
+  .secund-color{
+    color:#ff66c4
+  }
   .burbuja{
     background-image: url("/img/burbuja-bunny.png");
     background-size: contain;

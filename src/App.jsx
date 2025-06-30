@@ -6,6 +6,7 @@ import SobreNosotros from './components/SobreNosotros';
 import { Car } from 'lucide-react';
 import { Carousel } from './components/Carousel';
 
+
 function App() {
   return (
     <div className="w-7xl mx-auto">
